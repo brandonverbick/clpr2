@@ -63,13 +63,16 @@ nav li a:active {
     text-align: center;
     border: 0.5vw solid white;
 }
+
 .section1index h2 {
     color: #FFCB05;
     font-weight: bold;
 }
+
 .section1index p {
     color: #FFCB05;
 }
+
 .section1index li {
     font-weight: bold;
     color: #FFCB05;
@@ -78,16 +81,24 @@ nav li a:active {
 .section2index {
     grid-column: 2 / span 2;
 }
+
 .section2index img {
     grid-column: 1 / span 3;
 }
-.section2index h2, .section2index h3 {
+
+.section2index h2 {
     color: #FFCB05;
 }
+
+.section2index h3 {
+    color: #FFCB05;
+}
+
 .section2index figcaption {
     color: white;
     font-style: italic;
 }
+
 .section2index p {
     color: white;
 }
@@ -95,15 +106,19 @@ nav li a:active {
 .section3index, #life-outside-classroom {
     grid-column: 1 / -1;
 }
+
 .section3index h2, #life-outside-classroom h2 {
     color: #FFCB05;
 }
+
 .section3index h3, #life-outside-classroom h3 {
     color: #FFCB05;
 }
+
 .section3index p, #life-outside-classroom p {
     color: white;
 }
+
 .section3index li, #life-outside-classroom li {
     color: #FFCB05;
 }
@@ -161,9 +176,11 @@ div.location {
     background-color: #00274C;
     border: 0.3vh solid white;
 }
+
 .container-caps h2, .container-caps h3, .container-caps a {
     color: #FFCB05;
 }
+
 .container-caps p {
     color: white;
 }
@@ -181,12 +198,15 @@ div.caps-contact {
     background-color: #00274C;
     border: 0.3vh solid white;
 }
+
 .container-tutor h2, .container-tutor h3, .container-tutor a, .container-tutor h4 {
     color: #FFCB05;
 }
+
 .container-tutor p, .container-tutor li {
     color: white;
 }
+
 .container-tutor figcaption {
     color: white;
     font-style: italic;

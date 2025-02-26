@@ -30,8 +30,6 @@ footer {
 
 nav li {
     display: inline;
-    position: static;
-    top: 5vh;
     background-color: #FFCB05;
     padding: 1vw;
     align-items: center;
@@ -47,7 +45,6 @@ nav li a:active {
 #UHS-image img {
     width: 50vw;
     height: 10vh;
-    align-self: center;
 }
 
 #diag-image img {
@@ -130,7 +127,6 @@ nav li a:active {
 
 .mission h2, .mission p, .mission figure {
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
 }
 
 div.mission {
@@ -222,5 +218,4 @@ nav a:focus, nav a:hover {
     background-color: #00274C;
     color: #FFCB05;
     border: 1vh solid #FFCB05;
-    text-decoration: wavy underline;
 }

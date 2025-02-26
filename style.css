@@ -19,14 +19,13 @@ body {
 
 h1 {
     color: white;
-  
 }
 
 footer {
     background-color: #FFCB05;
     border: 0.5vh solid #00274C;
     position: relative;
-    bottom: 0.1vh
+    bottom: 0.1vh;
 }
 
 nav li {
@@ -66,53 +65,50 @@ nav li a:active {
     grid-column: 1 / span 1;
     text-align: center;
     border: 0.5vw solid white;
-   h2 {
+}
+.section1index h2 {
     color: #FFCB05;
     font-weight: bold;
-   }
-   p {
+}
+.section1index p {
     color: #FFCB05;
-   }
-   li {
+}
+.section1index li {
     font-weight: bold;
     color: #FFCB05;
-   }
 }
 
 .section2index {
     grid-column: 2 / span 2;
-    img {
-        grid-column: 1 span 3;
-    }
-   h2 {
+}
+.section2index img {
+    grid-column: 1 / span 3;
+}
+.section2index h2, .section2index h3 {
     color: #FFCB05;
-   }
-   h3 {
-    color: #FFCB05;
-   }
-   figcaption {
+}
+.section2index figcaption {
     color: white;
-    font-style:italic;
-   }
-   p {
+    font-style: italic;
+}
+.section2index p {
     color: white;
-   }
 }
 
-.section3index, #life-outside-classroom{
+.section3index, #life-outside-classroom {
     grid-column: 1 / -1;
-   h2 {
+}
+.section3index h2, #life-outside-classroom h2 {
     color: #FFCB05;
-   }
-   h3 {
-    color: #FFCB05;  
-   }
-   p {
+}
+.section3index h3, #life-outside-classroom h3 {
+    color: #FFCB05;
+}
+.section3index p, #life-outside-classroom p {
     color: white;
-   }
-   li {
+}
+.section3index li, #life-outside-classroom li {
     color: #FFCB05;
-   }
 }
 
 .container-pantry {
@@ -122,16 +118,17 @@ nav li a:active {
     background-color: #00274C;
 }
 
-#homepantryphoto img{
+#homepantryphoto img {
     width: 30vw;
     height: 20vh;
     border: 0.5vw solid white;
 }
-#entrance-photo img{
+
+#entrance-photo img {
     width: 25vw;
 }
 
-.mission h2, p, figure{
+.mission h2, .mission p, .mission figure {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
@@ -139,48 +136,47 @@ nav li a:active {
 div.mission {
     color: white;
     border: solid 0.3vw #FFCB05;
-
 }
 
 div.whoweare {
-    color:white;
+    color: white;
     border: solid 0.3vw #FFCB05;
     text-align: center;
 }
 
 div.provide {
-    color:white;
+    color: white;
     font-size: 1.5vh;
     border: solid 0.3vw #FFCB05;
 }
 
 div.location {
-    color:white;
+    color: white;
     text-align: right;
     font-size: 1.4vh;
     border: solid 0.3vw #FFCB05;
 }
 
-#pantryaddess a{
-    color:white;
+#pantryaddress a {
+    color: white;
 }
 
 .container-caps {
     background-color: #00274C;
     border: 0.3vh solid white;
-    h2, h3, a{
-        color: #FFCB05;
-    }
-    p {
-        color:white;
-    }
+}
+.container-caps h2, .container-caps h3, .container-caps a {
+    color: #FFCB05;
+}
+.container-caps p {
+    color: white;
 }
 
 div.caps-contact {
-    color:#FFCB05;
+    color: #FFCB05;
 }
 
-#stressless img{
+#stressless img {
     width: 50vw;
     border: solid 1vw white;
 }
@@ -188,18 +184,18 @@ div.caps-contact {
 .container-tutor {
     background-color: #00274C;
     border: 0.3vh solid white;
-    h2, h3, a, h4{
-        color: #FFCB05;
-    }
-    p , li{
-        color:white;
-    }
-    figcaption {
-        color: white;
-        font-style:italic;
-        top: 0.75vh;
-        position: relative;
-    }
+}
+.container-tutor h2, .container-tutor h3, .container-tutor a, .container-tutor h4 {
+    color: #FFCB05;
+}
+.container-tutor p, .container-tutor li {
+    color: white;
+}
+.container-tutor figcaption {
+    color: white;
+    font-style: italic;
+    top: 0.75vh;
+    position: relative;
 }
 
 #umsilogo img {
@@ -224,7 +220,7 @@ nav a:focus, nav a:hover {
 
 .currentlink a {
     background-color: #00274C;
-    color:#FFCB05;
+    color: #FFCB05;
     border: 1vh solid #FFCB05;
     text-decoration: wavy underline;
 }
